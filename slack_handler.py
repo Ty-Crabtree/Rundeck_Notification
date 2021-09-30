@@ -7,7 +7,7 @@ import os
 class Slack_Bot:
 
     def __init__(self):
-        self.slack_token = os.getenv('SLACK_AUTH_KEY') #'xoxb-558083787457-1121391179200-CGtL4vpPFPHW619mvMJoG59c'
+        self.slack_token = os.getenv('SLACK_AUTH_KEY')
         self.slack_channel = '#rundeck'
         self.slack_icon_emoji = ':see_no_evil:'
         self.slack_user_name = 'Python Slack Handler'
